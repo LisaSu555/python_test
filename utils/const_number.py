@@ -6,6 +6,7 @@ url_baidu = "https://www.baidu.com"
 url_csdn = "https://www.csdn.net"
 url_taobao = "https://www.taobao.com"
 url_other = "https://www.other.com"
+url_hao123 = "https://www.hao123.com"
 keyborad = Keys
 sleepTime = time
 windows_width = 1280
