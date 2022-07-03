@@ -2,7 +2,7 @@ from selenium import webdriver
 import unittest
 import time
 """
-不知道怎么回事l
+不知道怎么回事lo
 """
 
 
@@ -10,10 +10,6 @@ class UnitTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         print("start")
-
-    @classmethod
-    def tearDownClass(cls) -> None:
-        print("end")
 
     def setUp(self) -> None:
         self.dr = webdriver.Chrome()
@@ -39,6 +35,10 @@ class UnitTest(unittest.TestCase):
     def test_jave(self):
         self.dr.find_element('xpath', '//*[@id="toolbar-search-input"]').send_keys('java')
         print("case two has been called")
+
+    @classmethod
+    def tearDownClass(cls) -> None:
+        print("end")
 
 
 if __name__ == "__main__":
