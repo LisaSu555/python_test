@@ -4,6 +4,7 @@ import time
 
 i = 0
 
+
 class Baidu(unittest.TestCase):  # 继承unittest的testcase基类
 
     @classmethod
