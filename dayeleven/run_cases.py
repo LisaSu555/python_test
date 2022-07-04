@@ -19,5 +19,9 @@ def run_case(cases_path=r'E:\project files\python\from_git\dayeleven', cases_fil
     # send_mail(report)
 
 
-run_case()
+run_case(r'D:\pcf\soft\project\python\python_test',
+         "mc_case.py",
+         'D:\\pcf\\soft\\project\\python\\python_test\\html')
+
+# run_case()
 
