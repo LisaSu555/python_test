@@ -32,7 +32,7 @@ class YShop(unittest.TestCase):
         data = {'password': 123456, 'spread': '', 'username': 18811111111}
         p = self.session.post(url=url, headers=header, json=data)
         print(p.text)
-        res = re.findall('"token":"(.+)"},',p.text)
+        res = re.findall('"token":"(.+)"},', p.text)
         print(res[0])
         # global res1
         res1 = 'Bearer '+res[0]
